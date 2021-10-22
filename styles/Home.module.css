@@ -17,6 +17,12 @@
   align-items: center;
 }
 
+.personas{
+  width: 50vw;
+  height:20vh;
+  background-color: antiquewhite;
+}
+
 .footer {
   width: 100%;
   height: 100px;
