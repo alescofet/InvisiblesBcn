@@ -1,13 +1,21 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import dynamic from 'next/dynamic'
 import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 import pah from "../informacionPAH.json"
 import Caroussel from '../components/Caroussel'
 import NavBar from '../components/NavBar'
 
-
 export default function Home() {
+  const Map = dynamic(
+    () => import('../components/Map'), // replace '@components/map' with your component's location
+    { 
+      loading: () => <p>A map is loading</p>,
+      ssr: false // This line is important. It's what prevents server-side render
+    }
+  )
+
   useEffect(() => {
     
     
@@ -24,6 +32,7 @@ export default function Home() {
       <main className={styles.main}>
       <NavBar />
       <Caroussel id="carrusel"/>
+      <Map icon={"../public/icons8-palacio-de-justicia-80.png"}/>
       </main>
 
       <footer className={styles.footer}>

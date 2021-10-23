@@ -5,7 +5,7 @@ export default function NavBar() {
     return (
         <div className={styles.navBar}>
             <a href="#navBar">Invisibles</a>
-            <div>
+            <div className={styles.right_bar}>
             <a>FREE TOUR</a>
             <a>PAH</a>
             <a>CONTACTO</a>
