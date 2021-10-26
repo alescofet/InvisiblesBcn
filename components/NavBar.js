@@ -1,14 +1,23 @@
 import React from 'react'
 import styles from "../styles/NavBar.module.css"
 
-export default function NavBar() {
+export default function NavBar(props) {    
     return (
         <div className={styles.navBar}>
-            <a href="#navBar">Invisibles</a>
+            <a href="#carrusel">Invisibles</a>
             <div className={styles.right_bar}>
-            <a>FREE TOUR</a>
-            <a>PAH</a>
-            <a>CONTACTO</a>
+            <span onClick={(() => {
+                props.selectModal(0)
+                props.showModal()
+                })}>FREE TOUR</span>
+            <span onClick={(() => {
+                props.selectModal(1)
+                props.showModal()
+                })}>PAH</span>
+            <span onClick={(() => {
+                props.selectModal(2)
+                props.showModal()
+                })}>CONTACTO</span>
             </div>
         </div>
     )

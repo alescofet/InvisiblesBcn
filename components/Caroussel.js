@@ -5,8 +5,6 @@ import styles from "../styles/Caroussel.module.css"
 
 export default function Caroussel(props)
 {
-    console.log(props);
-    
 
     let items = [
         {
@@ -34,7 +32,6 @@ export default function Caroussel(props)
         timeout={900}
         navButtonsAlwaysInvisible={true}
         interval= {3000}
-
         >
             {
                 items.map( (item, i) => <Item  key={i} item={item}/> )
