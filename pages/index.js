@@ -3,31 +3,16 @@ import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import styles from '../styles/Home.module.css'
-import pah from "../informacionPAH.json"
 import Caroussel from '../components/Caroussel'
 import NavBar from '../components/NavBar'
 import Modal from '../components/Modal'
+import Texto from '../components/Texto'
+import modals from '../modals.json'
 
 export default function Home() {
 
   const [showModal, setShowModal] = useState(false);
-  const [selectedModal, setSelectedModal] = useState(0);
-  const modals =[
-    {
-      title: "FREE TOUR",
-      description: ["Si quieres un tour alternativo por la ciudad, ponte en contacto con nosotros. Lo celebraremos el primer sábado de cada mes a las 10h.", "Así verás otra realidad de la ciudad de la que todos debemos ser conscientes."]
-    },
-    {
-      title: "PAH",
-      description: ["La PAH es el acrónimo que da nombre al movimiento Plataforma Afectados por la Hipoteca y nace en 2009 con el principal objetivo de conquistar el derecho a la vivienda.", "Desde sus inicios ha mantenido una clara conciencia colectiva, política y partidista a través de una organización asamblearia, ciudadana y democrática sin vinculación ni apoyo a ningún partido político.", "A día de hoy este movimiento cuenta con presencia en más de 30 localidades y ha realizado numerosas campañas entre las que destacamos Vivienda por derecho, Ley Vivienda PAH, Mociones Ayuntamientos, Escraches y sobre todo Stop Deshaucios.", "Únete."]
-    },
-    {
-      title: "Contáctanos",
-      description:[["INVISIBLES", "invisibles@pah.com", "626 644 998"],
-      ["PAH", "info@pah.com", "626 644 994"]]
-    }
-  ]
-  
+  const [selectedModal, setSelectedModal] = useState(0);  
 
   const Map = dynamic(
     () => import('../components/Map'), // replace '@components/map' with your component's location
@@ -45,13 +30,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
       <NavBar selectModal={(index)=>{setSelectedModal(index)}} showModal={()=>{setShowModal(true)}}/>
+      <main className={styles.main}>
       <div id="carrusel">
       <Caroussel />
       </div>
       <Map icon={"../public/icons8-palacio-de-justicia-80.png"}/>
-      {/* <button onClick={() => setShowModal(true)}>Open Modal</button> */}
         <Modal
           onClose={() => setShowModal(false)}
           show={showModal}
@@ -70,6 +54,7 @@ export default function Home() {
             return(<p key={index}>{text}</p>)
             })}
         </Modal>
+        <Texto />
       </main>
 
       <footer className={styles.footer}>

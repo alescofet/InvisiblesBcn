@@ -4,20 +4,20 @@ import styles from "../styles/NavBar.module.css"
 export default function NavBar(props) {    
     return (
         <div className={styles.navBar}>
-            <a href="#carrusel">Invisibles</a>
+            <a href="#carrusel" className={styles.button}>INVISIBLES</a>
             <div className={styles.right_bar}>
-            <span onClick={(() => {
+            <button className={styles.button} onClick={(() => {
                 props.selectModal(0)
                 props.showModal()
-                })}>FREE TOUR</span>
-            <span onClick={(() => {
+                })}>FREE TOUR</button>
+            <button className={styles.button} onClick={(() => {
                 props.selectModal(1)
                 props.showModal()
-                })}>PAH</span>
-            <span onClick={(() => {
+                })}>PAH</button>
+            <button className={styles.button} onClick={(() => {
                 props.selectModal(2)
                 props.showModal()
-                })}>CONTACTO</span>
+                })}>CONTACTO</button>
             </div>
         </div>
     )
