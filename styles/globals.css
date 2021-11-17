@@ -4,11 +4,16 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #ffffffff;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+p{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
 }
 
 * {

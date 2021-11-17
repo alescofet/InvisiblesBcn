@@ -41,11 +41,18 @@ export default function Caroussel(props)
 }
 
 function Item(props)
-{
+{ if (props.item.name === "DESAHUCIOS"){
+    return (
+        <Paper className={styles.carruselItemBlack}>
+            <h2>{props.item.name}</h2>
+        </Paper>
+    )
+} else {
     return (
         <Paper className={styles.carruselItem}>
             <h2>{props.item.name}</h2>
         </Paper>
     )
+}
 }
 

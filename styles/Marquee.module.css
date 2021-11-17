@@ -1,0 +1,27 @@
+.mainDiv {
+    border: 2px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 99vw;
+    height: 10vh
+  }
+  
+  .div1 {
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+    background-repeat: round;
+    height: 100%;
+    background-size: contain;
+    width:300%
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  

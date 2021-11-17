@@ -6,18 +6,9 @@ export default function NavBar(props) {
         <div className={styles.navBar}>
             <a href="#carrusel" className={styles.button}>INVISIBLES</a>
             <div className={styles.right_bar}>
-            <button className={styles.button} onClick={(() => {
-                props.selectModal(0)
-                props.showModal()
-                })}>FREE TOUR</button>
-            <button className={styles.button} onClick={(() => {
-                props.selectModal(1)
-                props.showModal()
-                })}>PAH</button>
-            <button className={styles.button} onClick={(() => {
-                props.selectModal(2)
-                props.showModal()
-                })}>CONTACTO</button>
+            <a href="#" className={styles.button}>FREE TOUR</a>
+            <a href="#" className={styles.button}>PAH</a>
+            <a href="#contact" className={styles.button}>CONTACTO</a>
             </div>
         </div>
     )

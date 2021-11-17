@@ -1,6 +1,6 @@
   .carruselItem{
     width: 70vw;
-    height: 30vh;
+    height: 91vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,25 @@
   }
 
   .carruselItem > h2{
-      font-size: 7rem;
-  }
+      font-size: 10vw;
+      text-align: center;
+    }
+
+  
+  .carruselItemBlack{
+      width: 70vw;
+      height: 91vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: black !important;
+    }
+    
+    .carruselItemBlack > h2{
+      text-align: center;
+      font-size: 10vw;
+      color: white;
+    }
   
   

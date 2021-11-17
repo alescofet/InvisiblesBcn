@@ -7,7 +7,13 @@ import Caroussel from '../components/Caroussel'
 import NavBar from '../components/NavBar'
 import Modal from '../components/Modal'
 import Texto from '../components/Texto'
+import Marquee from '../components/Marquee'
 import modals from '../modals.json'
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import EmailIcon from '@material-ui/icons/Email';
+import Casas from '../components/Casas'
 
 export default function Home() {
 
@@ -31,12 +37,14 @@ export default function Home() {
       </Head>
 
       <NavBar selectModal={(index)=>{setSelectedModal(index)}} showModal={()=>{setShowModal(true)}}/>
-      <main className={styles.main}>
-      <div id="carrusel">
-      <Caroussel />
-      </div>
-      <Map icon={"../public/icons8-palacio-de-justicia-80.png"}/>
-        <Modal
+      
+      <main className={styles.main} id="carrusel">
+        <div className={styles.carrousel}>
+        {/* <Caroussel /> */}
+          <Image src={require('../public/carrusel.gif')} alt="Carrusel" layout='fill' objectFit='contain' sizes="70vw" className={styles.carrousel}/>
+        </div>
+        <Map icon={"../public/icons8-palacio-de-justicia-80.png"}/>
+{/*         <Modal
           onClose={() => setShowModal(false)}
           show={showModal}
           title={modals[selectedModal].title}
@@ -53,17 +61,20 @@ export default function Home() {
             )}
             return(<p key={index}>{text}</p>)
             })}
-        </Modal>
+        </Modal> */}
         <Texto />
+        <Marquee />
+        <Casas />
       </main>
+      <br />
 
-      <footer className={styles.footer}>
-        <span>
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </span>
+      <footer className={styles.footer} id="contact">
+        <p>
+          <a href="http://"><FacebookIcon/>Facebook</a>
+          <a href="http://"><InstagramIcon/>Instagram</a>
+          <a href="http://"><TwitterIcon/>Twitter</a>
+          <a href="http://"><EmailIcon/>Email</a>
+        </p>
       </footer>
     </div>
   )

@@ -1,4 +1,13 @@
 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
     text-align: justify;
     width: 60%;
+}
+
+.negrita{
+    font-weight: bold;
 }
