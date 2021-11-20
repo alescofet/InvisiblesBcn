@@ -3,13 +3,13 @@
     overflow: hidden;
     white-space: nowrap;
     width: 99vw;
-    height: 10vh
+    height: 20vh
   }
   
   .div1 {
     display: inline-block;
-    animation: marquee 15s linear infinite;
-    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+    animation: marquee 25s linear infinite;
+    background-image: url(../public/placa.png);
     background-repeat: round;
     height: 100%;
     background-size: contain;

@@ -3,12 +3,11 @@ import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import styles from '../styles/Home.module.css'
-import Caroussel from '../components/Caroussel'
 import NavBar from '../components/NavBar'
-import Modal from '../components/Modal'
 import Texto from '../components/Texto'
+import TextoTour from '../components/TextoTour'
+import TextoPAH from '../components/TextoPAH'
 import Marquee from '../components/Marquee'
-import modals from '../modals.json'
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
@@ -44,27 +43,11 @@ export default function Home() {
           <Image src={require('../public/carrusel.gif')} alt="Carrusel" layout='fill' objectFit='contain' sizes="70vw" className={styles.carrousel}/>
         </div>
         <Map icon={"../public/icons8-palacio-de-justicia-80.png"}/>
-{/*         <Modal
-          onClose={() => setShowModal(false)}
-          show={showModal}
-          title={modals[selectedModal].title}
-        >
-          {modals[selectedModal].description.map((text,index)=> {
-            if(typeof text === "object"){return(
-              <div>
-              <br/>
-              {text.map((item,index)=>{
-                if(index===1){return(<a href={`mailto:${item}`}>{item}</a>)}
-                return(<p key={index}>{item}</p>)
-              })}
-              </div>
-            )}
-            return(<p key={index}>{text}</p>)
-            })}
-        </Modal> */}
         <Texto />
         <Marquee />
         <Casas />
+        <TextoTour />
+        <TextoPAH />
       </main>
       <br />
 

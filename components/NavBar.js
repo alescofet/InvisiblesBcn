@@ -6,8 +6,8 @@ export default function NavBar(props) {
         <div className={styles.navBar}>
             <a href="#carrusel" className={styles.button}>INVISIBLES</a>
             <div className={styles.right_bar}>
-            <a href="#" className={styles.button}>FREE TOUR</a>
-            <a href="#" className={styles.button}>PAH</a>
+            <a href="#tour" className={styles.button}>FREE TOUR</a>
+            <a href="#pah" className={styles.button}>PAH</a>
             <a href="#contact" className={styles.button}>CONTACTO</a>
             </div>
         </div>

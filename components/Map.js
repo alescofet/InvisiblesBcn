@@ -2,7 +2,6 @@ import React from 'react'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import pah from "../informacionPAH.json"
-import LocationOnIcon from '@material-ui/icons/LocationOn';
 import {icon} from "leaflet"
 
 
