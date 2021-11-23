@@ -34,7 +34,7 @@ export default function Home() {
         <meta name="description" content="Invisibles Barcelona" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <div id="nav"></div>
       <NavBar selectModal={(index)=>{setSelectedModal(index)}} showModal={()=>{setShowModal(true)}}/>
       
       <main className={styles.main} id="carrusel">
@@ -42,7 +42,7 @@ export default function Home() {
         {/* <Caroussel /> */}
           <Image src={require('../public/carrusel.gif')} alt="Carrusel" layout='fill' objectFit='contain' sizes="70vw" className={styles.carrousel}/>
         </div>
-        <Map icon={"../public/icons8-palacio-de-justicia-80.png"}/>
+        <div id="map"><Map icon={"../public/icons8-palacio-de-justicia-80.png"}/> </div>
         <Texto />
         <Marquee />
         <Casas />

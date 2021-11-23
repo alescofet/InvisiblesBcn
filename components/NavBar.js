@@ -4,7 +4,7 @@ import styles from "../styles/NavBar.module.css"
 export default function NavBar(props) {    
     return (
         <div className={styles.navBar}>
-            <a href="#carrusel" className={styles.button}>INVISIBLES</a>
+            <a href="#nav" className={styles.button}>INVISIBLES</a>
             <div className={styles.right_bar}>
             <a href="#tour" className={styles.button}>FREE TOUR</a>
             <a href="#pah" className={styles.button}>PAH</a>

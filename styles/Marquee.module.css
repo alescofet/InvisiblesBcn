@@ -1,27 +1,61 @@
-.mainDiv {
-    border: 2px solid black;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 99vw;
-    height: 20vh
-  }
-  
-  .div1 {
-    display: inline-block;
-    animation: marquee 25s linear infinite;
-    background-image: url(../public/placa.png);
-    background-repeat: round;
-    height: 100%;
-    background-size: contain;
-    width:300%
-  }
-  
-  @keyframes marquee {
-    from {
-      transform: translateX(0%);
+@media (min-width:750px){
+  .mainDiv {
+      border: 2px solid black;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 99vw;
+      height: 20vh
     }
-    to {
-      transform: translateX(-50%);
+    
+    .div1 {
+      display: inline-block;
+      animation: marquee 25s linear infinite;
+      background-image: url(../public/placa.png);
+      background-repeat: round;
+      height: 100%;
+      background-size: contain;
+      width:300%
     }
-  }
+    
+    @keyframes marquee {
+      from {
+        transform: translateX(0%);
+      }
+      to {
+        transform: translateX(-50%);
+      }
+    }
+}
+
+@media (max-width:749px){
+  .mainDiv {
+      border: 2px solid black;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 99vw;
+      height: 20vh;
+      margin-top: 13vh;
+    }
+    
+    .div1 {
+      display: inline-block;
+      animation: marquee 25s linear infinite;
+      background-image: url(../public/placa.png);
+      background-repeat: round;
+      height: 100%;
+      background-size: contain;
+      width:300%
+    }
+    
+    @keyframes marquee {
+      from {
+        transform: translateX(0%);
+      }
+      to {
+        transform: translateX(-50%);
+      }
+    }
+}
+
+
   

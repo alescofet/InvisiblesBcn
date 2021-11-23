@@ -20,4 +20,9 @@ p{
   box-sizing: border-box;
 }
 
+@media (max-width:749px){
+  #map{
+    margin-bottom: 9vh;
+  }   
+}
 
