@@ -3,6 +3,7 @@ import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import styles from '../styles/Home.module.css'
+import textStyle from '../styles/TextoTwo.module.css'
 import NavBar from '../components/NavBar'
 import Texto from '../components/Texto'
 import TextoTour from '../components/TextoTour'
@@ -46,8 +47,10 @@ export default function Home() {
         <Texto />
         <Marquee />
         <Casas />
+        <div className={textStyle.text}>
         <TextoTour />
         <TextoPAH />
+        </div>
       </main>
       <br />
 

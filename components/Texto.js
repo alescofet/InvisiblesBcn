@@ -4,21 +4,28 @@ import styles from "../styles/Texto.module.css"
 export default function Texto() {
     return (
         <div className={styles.text}>
-            <p>Cuando visitamos una ciudad, recorremos sus calles para conocer la historia de los personajes más famosos.</p>
 
-            <p>Aunque conozcas Barcelona, <span className={styles.negrita}> seguro que de todas las personas que hay en el mapa ninguna te suena,</span> y es normal. </p>
+            <div className='first'>
+                <p>Cuando visitamos una ciudad, recorremos sus calles para conocer la historia de los personajes más famosos.</p>
 
-            <p>Quien más necesita que le vean, no tiene visibilidad.</p>
+                <p>Aunque conozcas Barcelona, <span className={styles.negrita}> seguro que de todas las personas que hay en el mapa ninguna te suena,</span> y es normal. </p>
+            </div>
 
-            <p><span className={styles.negrita}>A quien necesita alzar su voz, nadie le escucha.</span></p>
+            <div className="second">
+                <p>Quien más necesita que le vean, no tiene visibilidad.</p>
 
-            <p>Toda la gente que aparece en este mapa ha sido <span className={styles.negrita}>expulsada de sus casas.</span> Echada a la calle. Privada de un derecho básico según la constitución española, y hasta la ONU. <span className={styles.negrita}>Han sido privados de una vivienda digna. </span></p>
+                <p><span className={styles.negrita}>A quien necesita alzar su voz, nadie le escucha.</span></p>
+            </div>
 
-            <p>Mientras otros tienen toda nuestra atención, al resto nos cuesta que nos hagan caso.
-            <span className={styles.negrita}>¡Hay quienes incluso tienen placas en las casas para conmemorarlos!</span></p>
+            <div className="third">
+                <p>Toda la gente que aparece en este mapa ha sido <span className={styles.negrita}>expulsada de sus casas.</span> Echada a la calle. Privada de un derecho básico según la constitución española, y hasta la ONU. <span className={styles.negrita}>Han sido privados de una vivienda digna. </span></p>
 
-            <p>Esas placas deberían ser para quién las necesita.
-            <span className={styles.negrita}> No ser famosos no nos hace menos importantes.</span></p>
+                <p>Mientras otros tienen toda nuestra atención, al resto nos cuesta que nos hagan caso.
+                <span className={styles.negrita}>¡Hay quienes incluso tienen placas en las casas para conmemorarlos!</span></p>
+
+                <p>Esas placas deberían ser para quién las necesita.
+                <span className={styles.negrita}> No ser famosos no nos hace menos importantes.</span></p>
+            </div>
         </div>
 
 

@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from "../styles/Texto.module.css"
+
 
 export default function TextoPAH() {
     return (
-        <div className={styles.text} id="pah">
+        <div id="pah">
 
             <h1>¿PAHPARAZZIS?</h1>
             <p>No. Nosotros no acudimos a la llamada de un famoso.</p>
