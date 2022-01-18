@@ -12,14 +12,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70vw;
+  width: 80vw;
   height: 91vh;
   margin-top: 9vh;
 }
 
 .carrousel {
   height: 91vh !important;
-  min-width: 70% !important;  
+  min-width: 80% !important;  
 }
 
 .personas{

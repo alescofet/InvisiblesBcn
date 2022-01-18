@@ -3,7 +3,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 70vw;
+      width: 80vw;
       height: 9vh;
       position: fixed; /* Set the navbar to fixed position */
       top: 0; /* Position the navbar at the top of the page */
