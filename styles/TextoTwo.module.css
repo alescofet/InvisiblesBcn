@@ -1,58 +1,125 @@
 @font-face {
-    font-family: Monument;
-    src: url(../public/MonumentExtended-Regular.otf);
-  }
-@media (min-width:750px){
-    .text{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 91vh;
-        text-align: justify;
-        width: 100%;
-        background-image: url(../public/bg2.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .text div{
-        margin-right: 9rem;
-        width: 30%;
-    }
-    
-    .text div h1{
-        font-family: 'Monument';
-        font-size: 0.9rem;
-    }
-    .text div a{
-        background-color: rgb(255,212,0);
-        padding: 0.5rem 2rem;
-        border-radius: 0.5rem;
-        font-weight: bold;
-        text-decoration: none;
-        color: black;
-
-    }
-
-    .negrita{
-        font-weight: bold;
-    }
+  font-family: Monument;
+  src: url(../public/MonumentExtended-Regular.otf);
 }
+@media (min-width: 750px) {
+  .text {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 91vh;
+    text-align: justify;
+    width: 100%;
+    background-image: url(../public/bg2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
 
-@media (max-width:749px){
-    .text{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 91vh;
-        text-align: justify;
-        width: 60%;
-       
-    }
-    
-    .negrita{
-        font-weight: bold;
-    }
+  .text div {
+    margin-right: 9rem;
+    width: 30%;
+  }
+
+  .text p {
+    font-family: Roboto;
+    font-size: 1.2rem;
+  }
+
+  .text div h1 {
+    font-family: "Monument";
+    font-size: 0.9rem;
+  }
+  .text div a {
+    background-color: rgb(255, 212, 0);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+  }
+
+  .negrita {
+    font-weight: bold;
+  }
+}
+@media (min-width: 1400px) {
+  .text {
+    padding: 10vh 0 22vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 91vh;
+    text-align: justify;
+    width: 100%;
+    background-image: url(../public/bg2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text div {
+    margin-right: 9rem;
+    width: 30%;
+  }
+
+  .text p {
+    font-family: Roboto;
+    font-size: 1.2rem;
+  }
+
+  .text div h1 {
+    font-family: "Monument";
+    font-size: 0.9rem;
+  }
+  .text div a {
+    background-color: rgb(255, 212, 0);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+  }
+
+  .negrita {
+    font-weight: bold;
+  }
+}
+@media (max-width: 749px) {
+  .text {
+    margin-top: 43vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+  }
+
+  .text h1 {
+    text-align: center;
+  }
+
+  .text p {
+    font-family: Roboto;
+    font-size: 1rem;
+  }
+
+  .negrita {
+    font-weight: bold;
+  }
+
+  .text div a {
+    background-color: rgb(255, 212, 0);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+    font-family: Roboto;
+  }
 }

@@ -1,69 +1,162 @@
 @font-face {
-    font-family: Monument;
-    src: url(../public/MonumentExtended-Regular.otf);
-  }
-@media (min-width:750px){
-    .text{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        height: 91vh;
-        text-align: justify;
-        width: 100%;
-        background-image: url(../public/bg1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .text div:nth-child(1){
-        margin-left: 4rem;
-        align-self: flex-start;
-        justify-self: left;
-        width: 30%;
-        text-align: justify;
-    }
-    .text div:nth-child(2){
-        margin-left: 10rem;
-        margin-bottom: 5rem;
-        align-self: center;
-        justify-self: left;
-        width: 60%;
-    }
-
-    .text div:nth-child(2) p{
-        font-family: 'Monument';
-    }
-
-    .text div:nth-child(3){
-        align-self: flex-end;
-        justify-self: left;
-        width: 30%;
-        margin-right: 4rem;  
-        margin-bottom: 5rem;
-    }
-    .text p{
-
-        text-align: justify;
-        font-size: 1.2rem;
-    }
-    
-    .negrita{
-        font-weight: bold;
-    }
+  font-family: Monument;
+  src: url(../public/MonumentExtended-Regular.otf);
 }
 
-@media (max-width:749px){
-    .text{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 91vh;
-        text-align: justify;
-        width: 60%;
-       
-    }
-    
-    .negrita{
-        font-weight: bold;
-    }
+@media (min-width: 750px) {
+  .textContainer {
+    height: 91vh;
+    width: 100%;
+    background-image: url(../public/bg1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .text {
+    margin: 3vh auto;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
+  }
+  .text div:nth-child(1) {
+    margin-left: 5rem;
+    margin-top: 3rem;
+    align-self: flex-start;
+    justify-self: left;
+    width: 40%;
+    text-align: left;
+  }
+  .text div:nth-child(2) {
+    margin-top: 2vh;
+    margin-bottom: 3rem;
+    align-self: center;
+    justify-self: left;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text div:nth-child(2) p {
+    font-family: "Monument";
+    text-align: center;
+  }
+
+  .text div:nth-child(3) {
+    align-self: flex-end;
+    justify-self: left;
+    width: 49%;
+    margin-right: 2rem;
+  }
+  .text p {
+    text-align: left;
+    font-size: 1rem;
+    font-family: Roboto;
+  }
+
+  .negrita {
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1400px) {
+  .textContainer {
+    height: 91vh;
+    width: 100%;
+    background-image: url(../public/bg1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text {
+    margin: 5vh auto;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
+  }
+  .text div:nth-child(1) {
+    margin-left: 4rem;
+    margin-top: 3rem;
+    align-self: flex-start;
+    justify-self: left;
+    width: 30%;
+    text-align: left;
+  }
+  .text div:nth-child(2) {
+    margin-top: 2vh;
+    margin-bottom: 3rem;
+    align-self: center;
+    justify-self: left;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text div:nth-child(2) p {
+    font-family: "Monument";
+  }
+
+  .text div:nth-child(3) {
+    align-self: flex-end;
+    justify-self: left;
+    width: 33%;
+    margin-right: 8rem;
+    margin-bottom: 5rem;
+  }
+  .text p {
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: Roboto;
+  }
+
+  .negrita {
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 749px) {
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+    text-align: justify;
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .text p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1vh;
+    font-family: Roboto;
+  }
+
+  .text div:nth-child(3) p {
+    font-family: "Monument";
+  }
+
+  .negrita {
+    font-weight: bold;
+  }
+  .arcTriomf {
+    width: 100vw;
+    height: 20vh;
+    background-image: url(../public/arcTriomf.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .torres {
+    width: 100vw;
+    height: 20vh;
+    background-image: url(../public/torres.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 100vw;
+  }
 }

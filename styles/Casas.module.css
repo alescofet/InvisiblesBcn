@@ -1,90 +1,86 @@
-@media (min-width:750px){
+@media (min-width: 750px) {
   .main {
-      position:relative;
-      height:100vh;
-      width:80vw;
-      margin:0 auto;
-    }
-    
-    .main > div {
-      position:absolute;
-      left:0;
-      width: 100%;
-      height: 100%;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      -webkit-transition: opacity 1s ease-in-out;
-      -moz-transition: opacity 1s ease-in-out;
-      -o-transition: opacity 1s ease-in-out;
-      transition: opacity 1s ease-in-out;
-    }
-    
-    .top:hover {
-      opacity:0;
-    }
-  
-  .top{
-      background-image: url("../public/luces-12.png");
-      background-color: white;
-      z-index: 1;
+    position: relative;
+    height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
   }
-  .bottom{
-      background-image: url("../public/luces-13.png");
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+
+  .main > div {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
   }
-  
-  .bottom p{
-      margin: 0 auto;
-  } 
+
+  .top:hover {
+    opacity: 0;
+  }
+
+  .top {
+    background-image: url("../public/luces-12.png");
+    background-color: white;
+    z-index: 1;
+  }
+  .bottom {
+    background-image: url("../public/luces-13.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bottom p {
+    margin: 0 auto;
+  }
 }
 
-@media (max-width:749px){
+@media (max-width: 749px) {
   .main {
-      position:relative;
-      left: -62px;
-      height: 57vh;
-      width: 100vw;
-      margin: 0 auto;
-      margin-top: 9vh;
-    }
-    
-    .main > div {
-      position:absolute;
-      left:0;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      -webkit-transition: opacity 1s ease-in-out;
-      -moz-transition: opacity 1s ease-in-out;
-      -o-transition: opacity 1s ease-in-out;
-      transition: opacity 1s ease-in-out;
-    }
-    
-    .top:hover {
-      opacity:0;
-    }
-  
-  .top{
-      background-image: url("../public/luces-12.png");
-      background-color: white;
-      z-index: 1;
+    height: 57vh;
+    width: 100vw;
+    margin: 0 auto;
   }
-  .bottom{
-      background-image: url("../public/luces-13.png");
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+
+  .main > div {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
   }
-  
-  .bottom p{
-      margin: 0 auto;
-      font-size: 0.8rem;
-  } 
+
+  .top:hover {
+    opacity: 0;
+  }
+
+  .top {
+    background-image: url("../public/luces-12.png");
+    background-color: white;
+    z-index: 1;
+  }
+  .bottom {
+    background-image: url("../public/luces-13.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bottom p {
+    margin: 0 auto;
+    font-size: 0.8rem;
+    width: 32%;
+    text-align: center;
+  }
 }

@@ -4,6 +4,38 @@
   justify-content: center;
   align-items: center;
   background-color: #ffffffff;
+  overflow-x: hidden;
+  min-width: 100vw;
+}
+
+.agbar {
+  width: 100vw;
+  height: 26vh;
+  background-image: url(../public/agbar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.sagradaFamilia {
+  width: 100vw;
+  height: 22vh;
+  background-image: url(../public/sagradaFamilia.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  right: -60%;
+  top: 2vh;
+}
+
+.wela {
+  width: 100vw;
+  height: 26vh;
+  background-image: url(../public/wela.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  right: -60%;
+  top: 2vh;
 }
 
 .main {
@@ -12,19 +44,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 100vw;
   height: 91vh;
   margin-top: 9vh;
 }
 
 .carrousel {
   height: 91vh !important;
-  min-width: 80% !important;  
+  min-width: 80% !important;
 }
 
-.personas{
+.personas {
   width: 50vw;
-  height:20vh;
+  height: 20vh;
   background-color: #ffffffff;
 }
 
@@ -52,7 +84,6 @@
   width: 40%;
   text-decoration: none;
   color: #65c1b1;
-  
 }
 
 .title {
@@ -139,14 +170,14 @@
     align-items: center;
     margin-top: 6vh;
   }
-  
+
   .footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
   }
-  
+
   .footer a {
     display: flex;
     flex-direction: row;
@@ -155,6 +186,5 @@
     width: 40%;
     text-decoration: none;
     color: #65c1b1;
-    
   }
 }
