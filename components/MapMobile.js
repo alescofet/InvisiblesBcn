@@ -5,7 +5,7 @@ import pah from "../informacionPAH.json"
 import {icon} from "leaflet"
 
 
-export default function Map() { 
+export default function MapMobile() { 
     const ICON = icon({
         iconUrl: "/locationIcon.png",
         iconSize: [32, 32],
@@ -20,7 +20,7 @@ export default function Map() {
         )
     })
     return (
-        <MapContainer center={[41.387, 2.169]} zoom={13} scrollWheelZoom={false} style={{height: "91vh", width: "80vw", zIndex: 0}} id="map">
+        <MapContainer center={[41.387, 2.169]} zoom={13} scrollWheelZoom={false} style={{height: "40vh", width: "80vw", zIndex: 0}} id="map">
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

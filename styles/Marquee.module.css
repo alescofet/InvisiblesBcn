@@ -1,7 +1,7 @@
 @media (min-width: 750px) {
   .mainDiv {
     margin-top: 10vh;
-    border: 2px solid black;
+    border: 2px;
     overflow: hidden;
     white-space: nowrap;
     width: 99vw;
@@ -30,7 +30,7 @@
 
 @media (max-width: 749px) {
   .mainDiv {
-    border: 2px solid black;
+    border: 2px;
     overflow: hidden;
     white-space: nowrap;
     width: 99vw;

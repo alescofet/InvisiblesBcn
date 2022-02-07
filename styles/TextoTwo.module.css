@@ -10,7 +10,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 91vh;
-    text-align: justify;
+    text-align: left;
     width: 100%;
     background-image: url(../public/bg2.svg);
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 91vh;
-    text-align: justify;
+    text-align: left;
     width: 100%;
     background-image: url(../public/bg2.svg);
     background-repeat: no-repeat;

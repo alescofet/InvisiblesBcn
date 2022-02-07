@@ -9,6 +9,8 @@ import Texto from "../components/Texto";
 import TextoTour from "../components/TextoTour";
 import TextoPAH from "../components/TextoPAH";
 import Marquee from "../components/Marquee";
+import Map from "../components/Map"
+import MapMobile from "../components/MapMobile"
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -86,7 +88,7 @@ export default function Home() {
           />
         </div>
         <div className={styles.map}>
-          <Map icon={"../public/icons8-palacio-de-justicia-80.png"} />{" "}
+         {mobile ? <MapMobile icon={"../public/icons8-palacio-de-justicia-80.png"} /> : <Map icon={"../public/icons8-palacio-de-justicia-80.png"} /> }
         </div>
         <Texto />
         <Marquee />
