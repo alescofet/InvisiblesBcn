@@ -9,8 +9,6 @@ import Texto from "../components/Texto";
 import TextoTour from "../components/TextoTour";
 import TextoPAH from "../components/TextoPAH";
 import Marquee from "../components/Marquee";
-import Map from "../components/Map"
-import MapMobile from "../components/MapMobile"
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -52,6 +50,13 @@ export default function Home() {
 
   const Map = dynamic(
     () => import("../components/Map"), // replace '@components/map' with your component's location
+    {
+      loading: () => <p>A map is loading</p>,
+      ssr: false, // This line is important. It's what prevents server-side render
+    }
+  );
+  const MapMobile = dynamic(
+    () => import("../components/MapMobile"), // replace '@components/map' with your component's location
     {
       loading: () => <p>A map is loading</p>,
       ssr: false, // This line is important. It's what prevents server-side render
