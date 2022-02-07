@@ -43,6 +43,8 @@ const useMediaQuery = (width) => {
 
 export default function Home() {
   const mobile = useMediaQuery(600);
+  const mobileSize = "max-height:50%"
+  const desktopSize = "70vw"
   const [showModal, setShowModal] = useState(false);
   const [selectedModal, setSelectedModal] = useState(0);
 
@@ -73,24 +75,24 @@ export default function Home() {
 
       <main className={styles.main} id="carrusel">
         <div className={styles.carrousel}>
-          {/* <Caroussel /> */}
+
           <Image
             src={require("../public/carrusel.gif")}
             alt="Carrusel"
             layout="fill"
             objectFit="contain"
-            sizes="70vw"
+            sizes={mobile ? mobileSize : desktopSize}
             className={styles.carrousel}
           />
         </div>
-        <div id="map">
+        <div className={styles.map}>
           <Map icon={"../public/icons8-palacio-de-justicia-80.png"} />{" "}
         </div>
         <Texto />
         <Marquee />
         <Casas />
-        <div className={textStyle.text}>
-          {mobile ? <div className={styles.agbar} id="tour"></div> : null}
+        <div className={textStyle.text} id="tour">
+          {mobile ? <div className={styles.agbar}></div> : null}
           <TextoTour />
           {mobile ? (
             <div className={styles.sagradaFamilia} id="pah"></div>

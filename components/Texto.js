@@ -1,5 +1,4 @@
-import React, { useCallback, useEffect } from "react";
-import { useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import styles from "../styles/Texto.module.css";
 
 const useMediaQuery = (width) => {
