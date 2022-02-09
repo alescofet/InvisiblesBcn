@@ -14,6 +14,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import EmailIcon from "@material-ui/icons/Email";
 import Casas from "../components/Casas";
+import CookieConsent from "react-cookie-consent";
 
 const useMediaQuery = (width) => {
   const [targetReached, setTargetReached] = useState(false);
@@ -70,6 +71,7 @@ export default function Home() {
         <meta name="description" content="Invisibles Barcelona" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent>
       <div id="nav"></div>
       <NavBar
         selectModal={(index) => {

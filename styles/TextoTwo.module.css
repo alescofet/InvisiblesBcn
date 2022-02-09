@@ -4,7 +4,7 @@
 }
 @media (min-width: 750px) {
   .text {
-    padding-top: 15vh;
+    padding: 15vh 0 10vh 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -21,6 +21,7 @@
   .text div {
     margin-right: 9rem;
     width: 30%;
+    padding-bottom: 5vh;
   }
 
   .text p {
