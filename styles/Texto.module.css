@@ -157,6 +157,7 @@
     background-image: url(../public/torres.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 100vw;
+   /*  margin-left: 125vw; */
+   background-position: right;
   }
 }

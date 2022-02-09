@@ -22,9 +22,8 @@
   background-image: url(../public/sagradaFamilia.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  position: relative;
-  right: -83%;
-  top: 2vh;
+  background-position: right;
+  margin: 3vh 0;
 }
 
 .wela {
@@ -33,9 +32,8 @@
   background-image: url(../public/wela.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  position: relative;
-  right: -83%;
-  top: 2vh;
+  background-position: right;
+  margin: 3vh 0;
 }
 
 .main {
