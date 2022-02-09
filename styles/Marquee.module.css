@@ -1,10 +1,8 @@
 @media (min-width: 750px) {
   .mainDiv {
-    margin-top: 10vh;
-    border: 2px;
-    overflow: hidden;
+    margin: 10vh 0;
     white-space: nowrap;
-    width: 99vw;
+    width: 100vw;
     height: 20vh;
   }
 
@@ -30,17 +28,15 @@
 
 @media (max-width: 749px) {
   .mainDiv {
-    border: 2px;
-    overflow: hidden;
     white-space: nowrap;
-    width: 99vw;
+    width: 100vw;
     height: 20vh;
-    margin-top: 13vh;
+    margin: 10vh 0;
   }
 
   .div1 {
     display: inline-block;
-    animation: marquee 25s linear infinite;
+    animation: marquee 5s linear infinite;
     background-image: url(../public/placa2.png);
     background-repeat: round;
     height: 100%;

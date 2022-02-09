@@ -91,7 +91,7 @@
 }
 @media (max-width: 749px) {
   .text {
-    margin-top: 43vh;
+    margin-top: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

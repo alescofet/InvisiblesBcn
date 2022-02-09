@@ -200,6 +200,39 @@
     margin-top: 9vh !important;
   }
 
+  .mobileFooter{
+
+    width: 35%;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobileFooter :nth-child(1){
+    background-image: url(../public/facebook.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8vw;
+    height: 8vw;
+  }
+  .mobileFooter :nth-child(2){
+    background-image: url(../public/instagram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8vw;
+    height: 8vw;
+  }
+  .mobileFooter :nth-child(3){
+    background-image: url(../public/twitter.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8vw;
+    height: 8vw;
+  }
+
  /*  .map :nth-child(1){
     height: 51vh !important;
     min-width: 80% !important;

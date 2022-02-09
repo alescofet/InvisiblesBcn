@@ -112,7 +112,8 @@ export default function Home() {
       </main>
       <br />
 
-      <footer className={styles.footer} id="contact">
+      {!mobile 
+      ? <footer className={styles.footer} id="contact">
         <p>
           <a href="http://">
             <FacebookIcon />
@@ -131,7 +132,12 @@ export default function Home() {
             Email
           </a>
         </p>
-      </footer>
+      </footer> 
+      : <footer className={styles.mobileFooter}>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+      </footer>}
     </div>
   );
 }
