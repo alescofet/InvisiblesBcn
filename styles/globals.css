@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: Roboto;
   background-color: #ffffffff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 a {
@@ -18,6 +21,9 @@ p {
 * {
   box-sizing: border-box;
   overflow-x: hidden;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 @media (max-width: 749px) {

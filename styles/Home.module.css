@@ -6,6 +6,9 @@
   background-color: #ffffffff;
   overflow-x: hidden;
   min-width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .agbar {
@@ -48,7 +51,7 @@
 }
 
 .carrousel {
-  height: 91vh !important;
+  height: 0vh !important;
   min-width: 91% !important;
   margin-top: 91vh;
 }
@@ -189,10 +192,10 @@
   
   .carrousel {
     margin: 0 auto !important;
-    height: 51vh !important;
-    min-width: 80% !important;
+    width: 80% !important;
     max-height: 50% !important;
-    min-height: 50% !important;
+    height: 50% !important;
+    margin-bottom: 120% !important;
   }
 
   .carrousel :nth-child(1){

@@ -3,6 +3,9 @@
     height: 100vh;
     width: 90%;
     margin: 0 auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 
   .main > div {
@@ -47,6 +50,9 @@
     height: 50vh;
     width: 100%;
     margin: 0 auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 
   .main > div {

@@ -14,6 +14,9 @@
     z-index: 2;
     background-color: #ffffffff;
     padding: 0 10%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 
   .right_bar {
@@ -75,6 +78,9 @@
     z-index: 2;
     background-color: #ffffffff;
     font-size: 0.7rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 
   .right_bar {

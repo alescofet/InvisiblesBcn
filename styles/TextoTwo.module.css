@@ -60,6 +60,7 @@
     background-image: url(../public/bg2.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 10%;
   }
   .text div {
     margin-right: 9rem;
