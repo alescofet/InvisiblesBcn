@@ -1,11 +1,9 @@
 @media (min-width: 750px) {
   .main {
-    height: 100vh;
+    height: 100%;
     width: 90%;
     margin: 0 auto;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+ 
   }
 
   .main > div {
@@ -47,12 +45,10 @@
 
 @media (max-width: 749px) {
   .main {
-    height: 50vh;
+    height: 50%;
     width: 100%;
     margin: 0 auto;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+ 
   }
 
   .main > div {

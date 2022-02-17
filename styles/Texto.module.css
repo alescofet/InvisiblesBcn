@@ -5,16 +5,16 @@
 
 @media (min-width: 750px) {
   .textContainer {
-    height: 91vh;
+    height: 91%;
     width: 100%;
     background-image: url(../public/bg1.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 3vh;
-    padding-bottom: 10vh;
+    margin-top: 3%;
+    padding-bottom: 10%;
   }
   .text {
-    margin: 3vh auto;
+    padding: 5%;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -26,10 +26,11 @@
     justify-self: left;
     width: 32%;
     text-align: left;
+    margin-top: 3rem;
   }
   .text div:nth-child(2) {
-    margin-top: 8vh;
-    margin-bottom: 8vh;
+    margin-top: 8%;
+    margin-bottom: 8%;
     align-self: center;
     justify-self: left;
     width: 60%;
@@ -62,14 +63,14 @@
 
 @media (min-width: 1400px) {
   .textContainer {
-    height: 91vh;
+    height: 91%;
     width: 100%;
     background-image: url(../public/bg1.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .text {
-    margin: 5vh auto;
+    padding: 5%;
     width: 88%;
     display: flex;
     flex-direction: column;
@@ -77,7 +78,6 @@
     text-align: justify;
   }
   .text div:nth-child(1) {
-    margin-left: 4rem;
     margin-top: 3rem;
     align-self: flex-start;
     justify-self: left;
@@ -85,8 +85,8 @@
     text-align: left;
   }
   .text div:nth-child(2) {
-    margin-top: 2vh;
-    margin-bottom: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
     align-self: center;
     justify-self: left;
     width: 60%;
@@ -104,8 +104,7 @@
     align-self: flex-end;
     justify-self: left;
     width: 33%;
-    margin-right: 8rem;
-    margin-bottom: 5rem;
+    margin-right: 3rem;
   }
   .text p {
     text-align: left;
@@ -124,7 +123,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 91vh;
+    height: 91%;
     text-align: center;
     width: 100%;
     margin: 0 auto;
@@ -133,7 +132,7 @@
   .text p {
     width: 90%;
     margin: 0 auto;
-    padding: 1vh;
+    padding: 1%;
     font-family: Roboto;
   }
 
@@ -146,14 +145,14 @@
   }
   .arcTriomf {
     width: 100%;
-    height: 20vh;
+    height: 20%;
     background-image: url(../public/arcTriomf.svg);
     background-repeat: no-repeat;
     background-size: contain;
   }
   .torres {
     width: 100%;
-    height: 20vh;
+    height: 20%;
     background-image: url(../public/torres.svg);
     background-repeat: no-repeat;
     background-size: contain;
