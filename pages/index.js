@@ -109,35 +109,13 @@ export default function Home() {
           <TextoPAH />
           {mobile ? <div className={styles.wela}></div> : null}
         </div>
+      <footer className={styles.mobileFooter}>
+          <a href="https://es-es.facebook.com/PAHBarcelona/"></a>
+          <a href="https://www.instagram.com/la_pah/?hl=es"></a>
+          <a href="https://twitter.com/PAH_BCN"></a>
+      </footer>
       </main>
-      <br />
 
-      {!mobile 
-      ? <footer className={styles.footer} id="contact">
-        <p>
-          <a href="http://">
-            <FacebookIcon />
-            Facebook
-          </a>
-          <a href="http://">
-            <InstagramIcon />
-            Instagram
-          </a>
-          <a href="http://">
-            <TwitterIcon />
-            Twitter
-          </a>
-          <a href="http://">
-            <EmailIcon />
-            Email
-          </a>
-        </p>
-      </footer> 
-      : <footer className={styles.mobileFooter}>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-      </footer>}
     </div>
   );
 }

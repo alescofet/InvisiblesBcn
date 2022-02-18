@@ -20,7 +20,7 @@ export default function MapMobile() {
         )
     })
     return (
-        <MapContainer center={[41.387, 2.169]} zoom={13} scrollWheelZoom={false} style={{height: "40%", width: "90vw", zIndex: 0}} id="map">
+        <MapContainer center={[41.387, 2.169]} zoom={13} scrollWheelZoom={false} style={{height: "20rem", width: "90vw", zIndex: 0}} id="map">
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
