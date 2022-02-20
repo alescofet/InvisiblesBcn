@@ -44,8 +44,8 @@ const useMediaQuery = (width) => {
 
 export default function Home() {
   const mobile = useMediaQuery(600);
-  const mobileSize = "max-height:50%"
-  const desktopSize = "70vw"
+  const mobileSize = "height:50%"
+  const desktopSize = "height:60%"
   const [showModal, setShowModal] = useState(false);
   const [selectedModal, setSelectedModal] = useState(0);
 

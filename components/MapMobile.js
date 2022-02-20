@@ -7,8 +7,8 @@ import {icon} from "leaflet"
 
 export default function MapMobile() { 
     const ICON = icon({
-        iconUrl: "/locationIcon.png",
-        iconSize: [32, 32],
+        iconUrl: "/pin.png",
+        iconSize: [32, 42],
       })
     const markers = pah.map((persona)=>{
         return(
