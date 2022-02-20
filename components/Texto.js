@@ -34,61 +34,47 @@ export default function Texto() {
       <div className={styles.text}>
         <div className="first">
           <p>
-            Cuando visitamos una ciudad, recorremos sus calles para conocer la
-            historia de los personajes más famosos.
+            En Barcelona está pasando algo y necesita tu atención, pero no lo ves. 
           </p>
           <p>
-            Aunque conozcas Barcelona,{" "}
-            <span className={styles.negrita}>
-              {" "}
-              seguro que de todas las personas que hay en el mapa ninguna te
-              suena,
-            </span>{" "}
-            y es normal.{" "}
+            En Barcelona están privando a nuestros vecinos y vecinas de una vivienda digna, están desahuciando familias. 
+          </p>
+          <p>
+            Todo frente a tus ojos. Pero no lo ves. 
+          </p>
+          <p>
+            Porque los desahucios no son un punto de interés. 
           </p>
         </div>
 
         {mobile ? <div className={styles.arcTriomf}></div> : null}
 
-        <div className="second">
-          <p>Quien más necesita que le vean, no tiene visibilidad.</p>
-
-          <p>
-            <span className={styles.negrita}>
-              A quien necesita alzar su voz, nadie le escucha.
-            </span>
-          </p>
-        </div>
+        {mobile ? <div className="second"></div> : <div></div>}
 
         {mobile ? <div className={styles.torres}></div> : null}
 
         <div className="third">
           <p>
-            Toda la gente que aparece en este mapa ha sido{" "}
-            <span className={styles.negrita}>expulsada de sus casas.</span>{" "}
-            Echada a la calle. Privada de un derecho básico según la
-            constitución española, y hasta la ONU.{" "}
-            <span className={styles.negrita}>
-              Han sido privados de una vivienda digna.{" "}
-            </span>
+            No te hablan de los desalojos cuando se presume de ciudad. 
           </p>
 
           <p>
-            Mientras otros tienen toda nuestra atención, al resto nos cuesta que
-            nos hagan caso.
-            <span className={styles.negrita}>
-              ¡Hay quienes incluso tienen placas en las casas para
-              conmemorarlos!
-            </span>
+            No nos sentimos orgullosos cuando vienen a visitarnos. 
+          </p>
+
+
+          <p>
+            No se lo mostramos a nadie. 
           </p>
 
           <p>
-            Esas placas deberían ser para quién las necesita.
-            <span className={styles.negrita}>
-              {" "}
-              No ser famosos no nos hace menos importantes.
-            </span>
+            Seguramente porque no sabes qué está pasando.
           </p>
+
+          <p>
+            Pero es hora de que todos tomemos conciencia y mires hacia  #LaBarcelonaQueNoVes
+          </p>
+
         </div>
       </div>
     </div>

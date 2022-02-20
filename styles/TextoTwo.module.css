@@ -25,7 +25,7 @@
   }
 
   .text p {
-    font-family: Roboto;
+    font-family: Helvetica;
     font-size: 1.2rem;
   }
 
@@ -40,7 +40,7 @@
     font-weight: bold;
     text-decoration: none;
     color: black;
-    font-family: Roboto;
+    font-family: Helvetica;
   }
 
   .negrita {
@@ -63,12 +63,12 @@
     margin-top: 60%;
   }
   .text div {
-    margin-right: 8rem;
+    margin: 0 auto;
     width: 35%;
   }
 
   .text p {
-    font-family: Roboto;
+    font-family: Helvetica;
     font-size: 1.6rem;
   }
 
@@ -83,7 +83,7 @@
     font-weight: bold;
     text-decoration: none;
     color: black;
-    font-family: Roboto;
+    font-family: Helvetica;
     font-size: 1.4rem;
   }
 
@@ -107,7 +107,7 @@
   }
 
   .text p {
-    font-family: Roboto;
+    font-family: Helvetica;
     font-size: 1rem;
     width: 90%;
     margin-left: auto;
@@ -126,6 +126,6 @@
     text-decoration: none;
     color: black;
     margin: 0 auto;
-    font-family: Roboto;
+    font-family: Helvetica;
   }
 }

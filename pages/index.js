@@ -110,9 +110,12 @@ export default function Home() {
           {mobile ? <div className={styles.wela}></div> : null}
         </div>
       <footer className={styles.mobileFooter}>
+          <p className={styles.negrita}>Mira lo que está pasando en…</p>
+          <div>
           <a href="https://es-es.facebook.com/PAHBarcelona/"></a>
           <a href="https://www.instagram.com/la_pah/?hl=es"></a>
           <a href="https://twitter.com/PAH_BCN"></a>
+          </div>
       </footer>
       </main>
 

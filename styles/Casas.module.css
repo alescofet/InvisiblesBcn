@@ -39,7 +39,7 @@
 
   .bottom p {
     margin: 0 auto;
-    font-family: Roboto;
+    font-family: Helvetica;
   }
 }
 
@@ -84,6 +84,6 @@
     font-size: 0.8rem;
     width: 32%;
     text-align: center;
-    font-family: Roboto;
+    font-family: Helvetica;
   }
 }

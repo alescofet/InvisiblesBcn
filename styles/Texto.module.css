@@ -41,7 +41,7 @@
   }
 
   .text div:nth-child(2) p {
-    font-family: "Monument";
+    font-family: Helvetica;
     text-align: center;
     margin: 0.2rem;
   }
@@ -55,7 +55,7 @@
   .text p {
     text-align: left;
     font-size: 1rem;
-    font-family: Roboto;
+    font-family: Helvetica;
   }
 
   .negrita {
@@ -70,6 +70,7 @@
     background-image: url(../public/bg1.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 17%;
   }
   .text {
     padding: 5% 10%;
@@ -83,13 +84,13 @@
     margin-top: 0rem;
     align-self: flex-start;
     justify-self: left;
-    width: 30%;
+    width: 40%;
     text-align: left;
   }
   .text div:nth-child(2) {
-    margin-top: 4rem;
-    margin-bottom: 5rem;
-    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-right: 1rem;
     align-self: center;
     justify-self: left;
     width: 60%;
@@ -100,19 +101,19 @@
   }
 
   .text div:nth-child(2) p {
-    font-family: "Monument";
+    font-family: Helvetica;
   }
 
   .text div:nth-child(3) {
     align-self: flex-end;
     justify-self: left;
-    width: 32%;
-    margin-right: 10rem;
+    width: 40%;
+    margin-right: 20rem;
   }
   .text p {
     text-align: left;
     font-size: 1.4rem;
-    font-family: Roboto;
+    font-family: Helvetica;
   }
 
   .negrita {
@@ -136,11 +137,11 @@
     width: 90%;
     margin: 0 auto;
     padding: 1%;
-    font-family: Roboto;
+    font-family: Helvetica;
   }
 
   .text div:nth-child(3) p {
-    font-family: "Monument";
+    font-family: Helvetica;
   }
 
   .negrita {

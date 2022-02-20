@@ -17,6 +17,16 @@
     width: 300%;
   }
 
+  .text p{
+    white-space: normal;
+    width: 30%;
+    margin: 2rem auto;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-family: Helvetica;
+
+  }
+
   @keyframes marquee {
     from {
       transform: translateX(0%);
