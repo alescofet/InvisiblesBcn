@@ -7,7 +7,7 @@ import {icon} from "leaflet"
 
 export default function Map() { 
     const ICON = icon({
-        iconUrl: "/pin.png",
+        iconUrl: "/locationIcon.png",
         iconSize: [32, 42],
       })
     const markers = pah.map((persona)=>{
