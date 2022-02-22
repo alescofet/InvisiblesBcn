@@ -12,7 +12,7 @@ export default function TextoPAH() {
 
       <p>
         Si tienes fecha de desahucio, o quieres solidarizarte y formar parte de
-        la red contra los desalojos ponte en contacto con nosotros.
+        la red contra los desalojos ponte en contacto con nosotras.
       </p>
     </div>
   );

@@ -33,17 +33,11 @@ export default function Texto() {
     <div className={styles.textContainer}>
       <div className={styles.text}>
         <div className="first">
-          <p>
-            En Barcelona está pasando algo y necesita tu atención, pero no lo ves. 
+        <p>
+            Para conmemorar a una persona famosa, se colocan placas en la ciudad. Nos hemos apropiado de estas para atraer la mirada hacia los desahucios.
           </p>
           <p>
-            En Barcelona están privando a nuestros vecinos y vecinas de una vivienda digna, están desahuciando familias. 
-          </p>
-          <p>
-            Todo frente a tus ojos. Pero no lo ves. 
-          </p>
-          <p>
-            Porque los desahucios no son un punto de interés. 
+              Aunque a simple vista mires la placa porque te da curiosidad saber qué  famoso vivió en esa calle, verás una realidad que hasta ahora ha pasado de desapercibida. 
           </p>
         </div>
 
@@ -59,7 +53,7 @@ export default function Texto() {
           </p>
 
           <p>
-            No nos sentimos orgullosos cuando vienen a visitarnos. 
+            No nos sentimos orgullosas cuando vienen a visitarnos. 
           </p>
 
 
@@ -72,7 +66,7 @@ export default function Texto() {
           </p>
 
           <p>
-            Pero es hora de que todos tomemos conciencia y mires hacia  #LaBarcelonaQueNoVes
+            Pero es hora de que todas tomemos conciencia y mires hacia  #LaBarcelonaQueNoVes
           </p>
 
         </div>

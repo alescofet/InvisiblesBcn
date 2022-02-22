@@ -94,6 +94,22 @@ export default function Home() {
             className={styles.carrousel}
           />
         </div>
+
+        <div className={styles.firstText}>
+          <p>
+            En Barcelona está pasando algo y necesita tu atención, pero no lo ves. 
+          </p>
+          <p>
+            En Barcelona están privando a nuestros vecinos y vecinas de una vivienda digna, están desahuciando familias. 
+          </p>
+          <p>
+            Todo frente a tus ojos. Pero no lo ves. 
+          </p>
+          <p>
+            Porque los desahucios no son un punto de interés. 
+          </p>
+        </div>
+
         <div className={styles.map}>
          {mobile ? <MapMobile icon={"../public/icons8-palacio-de-justicia-80.png"} /> : <Map icon={"../public/icons8-palacio-de-justicia-80.png"} /> }
         </div>

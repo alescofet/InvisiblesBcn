@@ -9,6 +9,18 @@
 
 }
 
+.firstText{
+  margin-bottom: 14rem;
+}
+
+.firstText p{
+    white-space: normal;
+    width: 90%;
+    margin: 2rem auto;
+    font-size: 1.2rem;
+    font-family: Helvetica;
+}
+
 .agbar {
   margin-top: 7rem;
   width: 100%;
@@ -35,7 +47,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
-  margin-top:8rem;
+  margin-top:12rem;
 }
 
 .main {
@@ -171,6 +183,7 @@
   font-weight: bold;
   align-self: center;
   font-size: 1.2rem;
+  white-space: nowrap;
 }
 
 .mobileFooter div{
@@ -259,43 +272,57 @@
 
   .mobileFooter{
     position: relative;
-    bottom: 15rem;
-    width: 35%;
+    bottom: 19rem;
+    width: 60%;
     height: 10%;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+  }
+  
+  .negrita{
+    font-weight: bold;
+    align-self: center;
+    font-size: 1.2rem;
+    white-space: nowrap;
+  }
+  
+  .mobileFooter div{
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
     flex-direction: row;
+    -webkit-align-items: center;
+    -moz-box-align: center;
     align-items: center;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
     justify-content: space-between;
   }
-
-  .mobileFooter :nth-child(1){
+  
+  .mobileFooter div :nth-child(1){
     background-image: url(../public/facebook.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 8vw;
-    height: 8vw;
+    width: 3rem;
+    height: 3rem;
   }
-  .mobileFooter :nth-child(2){
+  .mobileFooter div :nth-child(2){
     background-image: url(../public/instagram.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 8vw;
-    height: 8vw;
+    width: 3rem;
+    height: 3rem;
   }
-  .mobileFooter :nth-child(3){
+  .mobileFooter div :nth-child(3){
     background-image: url(../public/twitter.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 8vw;
-    height: 8vw;
+    width: 3rem;
+    height: 3rem;
   }
-
- /*  .map :nth-child(1){
-    height: 51% !important;
-    min-width: 80% !important;
-    max-height: 50% !important;
-    min-height: 50% !important;
-  } */
 
 }
