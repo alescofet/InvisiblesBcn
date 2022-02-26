@@ -25,7 +25,7 @@
   .text div:nth-child(1) {
     align-self: flex-start;
     justify-self: left;
-    width: 32%;
+    width: 45%;
     text-align: left;
     margin-top: 0rem;
   }
@@ -49,12 +49,12 @@
   .text div:nth-child(3) {
     align-self: flex-end;
     justify-self: left;
-    width: 38%;
+    width: 42%;
     margin-right: 3rem;
   }
   .text p {
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: Helvetica;
   }
 
@@ -128,7 +128,7 @@
     justify-content: center;
     align-items: center;
     height: 91%;
-    text-align: center;
+    text-align: left;
     width: 100%;
     margin: 2rem auto;
   }
@@ -138,6 +138,7 @@
     margin: 0 auto;
     padding: 1%;
     font-family: Helvetica;
+    font-size: 1.2rem;
   }
 
   .text div:nth-child(3) p {
@@ -153,6 +154,7 @@
     background-image: url(../public/arcTriomf.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 2rem 0;
   }
   .torres {
     width: 100%;
@@ -160,7 +162,7 @@
     background-image: url(../public/torres.svg);
     background-repeat: no-repeat;
     background-size: contain;
-   /*  margin-left: 125%; */
-   background-position: right;
+    margin: 2rem 0;
+    background-position: right;
   }
 }

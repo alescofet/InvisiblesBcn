@@ -325,4 +325,12 @@
     height: 3rem;
   }
 
+  .map{
+    margin: 5rem 0;
+  }
+
+  .firstText{
+    margin: 0;
+  }
+
 }

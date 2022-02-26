@@ -9,10 +9,6 @@ import Texto from "../components/Texto";
 import TextoTour from "../components/TextoTour";
 import TextoPAH from "../components/TextoPAH";
 import Marquee from "../components/Marquee";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import EmailIcon from "@material-ui/icons/Email";
 import Casas from "../components/Casas";
 import CookieConsent from "react-cookie-consent";
 
@@ -69,7 +65,7 @@ export default function Home() {
       <Head>
         <title>InvisiblesBcn</title>
         <meta name="description" content="Invisibles Barcelona" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent>
       <div id="nav"></div>
@@ -111,7 +107,7 @@ export default function Home() {
         </div>
 
         <div className={styles.map}>
-         {mobile ? <MapMobile icon={"../public/icons8-palacio-de-justicia-80.png"} /> : <Map icon={"../public/icons8-palacio-de-justicia-80.png"} /> }
+         {mobile ? <MapMobile /> : <Map /> }
         </div>
         <Texto />
         <Marquee />
@@ -125,7 +121,7 @@ export default function Home() {
           <TextoPAH />
           {mobile ? <div className={styles.wela}></div> : null}
         </div>
-      <footer className={styles.mobileFooter}>
+      <footer className={styles.mobileFooter} id="contact">
           <p className={styles.negrita}>Mira lo que está pasando en…</p>
           <div>
           <a href="https://es-es.facebook.com/PAHBarcelona/"></a>

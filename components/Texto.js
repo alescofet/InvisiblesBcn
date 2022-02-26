@@ -45,7 +45,6 @@ export default function Texto() {
 
         {mobile ? <div className="second"></div> : <div></div>}
 
-        {mobile ? <div className={styles.torres}></div> : null}
 
         <div className="third">
           <p>
@@ -70,6 +69,7 @@ export default function Texto() {
           </p>
 
         </div>
+      {mobile ? <div className={styles.torres}></div> : null}
       </div>
     </div>
   );
