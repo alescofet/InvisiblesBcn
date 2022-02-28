@@ -33,7 +33,7 @@
     font-family: "Monument";
     font-size: 1.2rem;
   }
-  .text div a {
+/*   .text div a {
     background-color: rgb(255, 212, 0);
     padding: 0.5rem 2rem;
     border-radius: 0.5rem;
@@ -41,7 +41,7 @@
     text-decoration: none;
     color: black;
     font-family: Helvetica;
-  }
+  } */
 
   .negrita {
     font-weight: bold;
@@ -76,7 +76,7 @@
     font-family: "Monument";
     font-size: 1.9rem;
   }
-  .text div a {
+/*   .text div a {
     background-color: rgb(255, 212, 0);
     padding: 0.8rem 3rem;
     border-radius: 0.5rem;
@@ -85,7 +85,7 @@
     color: black;
     font-family: Helvetica;
     font-size: 1.4rem;
-  }
+  } */
 
   .negrita {
     font-weight: bold;

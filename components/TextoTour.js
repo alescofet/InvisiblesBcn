@@ -11,7 +11,7 @@ export default function TextoTour() {
       <p>Queremos enseñarte #LaBarcelonaQueNoVes y de la que nadie te ha hablado, de la que pasa desapercibida. 
       La Barcelona que sufren nuestros vecinos y vecinas. </p>
       <p>Organizamos un free tour alternativo para mostrarte la realidad de los vecinos y vecinas de la ciudad. 
-      Si estás dispuesto/a a verla con otros ojos, ven a recorrer las calles con nosotros.</p>
+      Si estás dispuesto/a a verla con otros ojos, ven a recorrer las calles con nosotras.</p>
     </div>
   );
 }
