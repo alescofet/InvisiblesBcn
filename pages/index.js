@@ -127,7 +127,7 @@ export default function Home() {
           <a href="https://es-es.facebook.com/PAHBarcelona/"></a>
           <a href="https://www.instagram.com/la_pah/?hl=es"></a>
           <a href="https://twitter.com/PAH_BCN"></a>
-          <a href="www.lapahdebarcelona.org"></a>
+          <a href="https://pahbarcelona.org"></a>
           </div>
       </footer>
       </main>
