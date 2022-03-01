@@ -1,7 +1,7 @@
 [
   {
     "nombre": "MANUEL",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada el 11/12/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 11/12/2020",
     "direccion": "📍 Avda. Mistral, 18",
     "alt": 41.377,
     "lat": 2.157
@@ -22,28 +22,28 @@
   },
   {
     "nombre": "NOOR",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 14/12/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado",
     "direccion": "📍 C/ Moianes, 70",
     "alt": 41.3709752,
     "lat": 2.1423798
   },
   {
     "nombre": "ACHOURA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 10/05/2018",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada el 10/05/2018",
     "direccion": "📍 C/ Epir, 6",
     "alt": 41.41,
     "lat": 2.207
   },
   {
     "nombre": "BENIGNO",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 14/12/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado",
     "direccion": "📍 Rambla de Guipúzcoa, 144",
     "alt": 41.4214616,
     "lat": 2.2044204
   },
   {
     "nombre": "SAADIA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 14/12/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada",
     "direccion": "📍 C/ Sant Antoni dels Sombrerers",
     "alt": 41.3842469,
     "lat": 2.1818337
@@ -57,77 +57,77 @@
   },
   {
     "nombre": "DOLORES",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 14/12/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada el 08/06/2021",
     "direccion": "📍 C/ Alfonso el Magnánimo",
     "alt": 41.4171697,
     "lat": 2.2135446
   },
   {
     "nombre": "D'AMIR",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 14/12/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado",
     "direccion": "📍 Nou de la Rambla, 16",
     "alt": 41.3750787,
     "lat": 2.1702776
   },
   {
     "nombre": "EDUARDO",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 14/12/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado",
     "direccion": "📍 C/ Ferran, 39",
     "alt": 41.3818247,
     "lat": 2.1759276
   },
   {
     "nombre": "CRISTINA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 14/12/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada",
     "direccion": "📍 Roger, 31",
     "alt": 41.377314,
     "lat": 2.1277065
   },
   {
     "nombre": "NADIA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 14/12/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada",
     "direccion": "📍 C/ Bou de Sant Pere, 16",
     "alt": 41.3879884,
     "lat": 2.1767087
   },
   {
     "nombre": "HAFSA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 14/12/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada",
     "direccion": "📍 Nou de la Rambla, 99",
     "alt": 41.3750787,
     "lat": 2.1702776
   },
   {
     "nombre": "RAQUEL",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 26/11/2018",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada el 26/11/2018",
     "direccion": "📍 C/ La Jota, 81",
     "alt": 41.4293836,
     "lat": 2.1787768
   },
   {
     "nombre": "MOIRA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 13/09/2019",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada el 13/09/2019",
     "direccion": "📍 C/ Almeria, 20",
     "alt": 41.373426,
     "lat": 2.13824
   },
   {
     "nombre": "DEBORA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 14/12/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada",
     "direccion": "📍 C/ Autonomía, 13-15",
     "alt": 41.3768075,
     "lat": 2.1390818
   },
   {
     "nombre": "NASSIMA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 07/11/2019",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada el 07/11/2019",
     "direccion": "📍 C/ Bloques de la Florida, 9",
     "alt": 41.367943,
     "lat": 2.108929
   },
   {
     "nombre": "MARÍA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 10/02/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada el 10/02/2020",
     "direccion": "📍 C/ Sant Fructuos, 23",
     "alt": 41.3719318,
     "lat": 2.147403
@@ -141,21 +141,21 @@
   },
   {
     "nombre": "SANDRA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 05/03/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada el 05/03/2020",
     "direccion": "📍 Plaça de la Farga, 8-10",
     "alt": 41.372165,
     "lat": 2.138711
   },
   {
     "nombre": "MARIELA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 15/10/2020",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada el 15/10/2020",
     "direccion": "📍 C/ Aragón, 477",
     "alt": 41.403736,
     "lat": 2.180034
   },
   {
     "nombre": "PHIKRIA",
-    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciado el 21/11/2019",
+    "descripcion": "📆 Pudo vivir aquí hasta que fue desahuciada el 21/11/2019",
     "direccion": "📍 C/ Occidente, 50",
     "alt": 41.374058,
     "lat": 2.117969

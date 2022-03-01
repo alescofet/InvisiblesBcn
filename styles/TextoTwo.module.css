@@ -120,7 +120,7 @@
     font-weight: bold;
   }
 
-  .text div a {
+/*   .text div a {
     background-color: rgb(255, 212, 0);
     padding: 0.5rem 2rem;
     border-radius: 0.5rem;
@@ -129,5 +129,5 @@
     color: black;
     margin: 0 auto;
     font-family: Helvetica;
-  }
+  } */
 }
